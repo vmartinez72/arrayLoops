@@ -1,13 +1,24 @@
+var inputArrayNumber =function(exampleInputNumber) {
+  if (exampleInputNumber % 4);
+  return ("#dave")
+}
+
 $(document).ready(function() {
-  $("form#form-group").submit(function(event) {
+  $("form.form-group").submit(function(event) {
     event.preventDefault();
 
+    var inputArrayNumber = $("input#exampleInputNumber"). val();
+    var sliceNums = inputArrayNumber.slice(0,1);
+    for (var i=0 ; i < sliceNumbers.length; i++) {
+        alert(sliceNum);
+    }
 
-    var inputNumber = $("input#number").val();
-    var inNum = array.split("");
-    $("#result").text(inNum);
-    // console.log("result");
-    // var number1 = inputNumber.slice(' ')
+  
 
+
+    // var result = BoopNumber(inputArrayNumber);
+    // $('#result').text(result);
+
+    // var inputArrayNumber
   });
 });
